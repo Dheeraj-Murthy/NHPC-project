@@ -1,0 +1,21 @@
+{
+  "nodes": 14,
+  "links": [
+    { "src": 0, "dst": 2, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 0, "dst": 3, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 0, "dst": 4, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 0, "dst": 5, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 1, "dst": 2, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 1, "dst": 3, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 1, "dst": 4, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 1, "dst": 5, "bandwidth": "3Mbps", "delay": "1ms" },
+    { "src": 2, "dst": 6, "bandwidth": "1.5Mbps", "delay": "2ms" },
+    { "src": 2, "dst": 7, "bandwidth": "1.5Mbps", "delay": "2ms" },
+    { "src": 3, "dst": 8, "bandwidth": "1.5Mbps", "delay": "2ms" },
+    { "src": 3, "dst": 9, "bandwidth": "1.5Mbps", "delay": "2ms" },
+    { "src": 4, "dst": 10, "bandwidth": "1.5Mbps", "delay": "2ms" },
+    { "src": 4, "dst": 11, "bandwidth": "1.5Mbps", "delay": "2ms" },
+    { "src": 5, "dst": 12, "bandwidth": "1.5Mbps", "delay": "2ms" },
+    { "src": 5, "dst": 13, "bandwidth": "1.5Mbps", "delay": "2ms" }
+  ]
+}

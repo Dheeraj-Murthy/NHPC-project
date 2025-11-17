@@ -1,0 +1,16 @@
+{
+  "model": "min_cost_max_flow",
+  "total_flows": 30,
+  "successful_flows": 17,
+  "failed_flows": 13,
+  "partial_flows": 0,
+  "avg_throughput": 0.2674646,
+  "max_throughput": 1.50442,
+  "min_throughput": 0.0,
+  "avg_delay": 1073.7505,
+  "avg_loss": 43.333333333333336,
+  "total_tx_bytes": "1099013940",
+  "total_rx_bytes": "36430560",
+  "packet_loss_rate": 0.43333333333333335,
+  "success_rate": 0.5666666666666667
+}

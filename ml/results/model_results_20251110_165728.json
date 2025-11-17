@@ -1,0 +1,266 @@
+{
+  "max_flow": {
+    "model_name": "max_flow",
+    "routes": [
+      {
+        "src": 1,
+        "dst": 0,
+        "next_hop": 0,
+        "max_flow": 5.0,
+        "model": "max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "next_hop": 1,
+        "max_flow": 5.0,
+        "model": "max_flow"
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "next_hop": 3,
+        "max_flow": 5.0,
+        "model": "max_flow"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "max_flow": 5.0,
+        "model": "max_flow"
+      }
+    ],
+    "metrics": {
+      "model_name": "max_flow",
+      "total_max_flow": 20.0,
+      "success_rate": 1.0,
+      "num_bottlenecks": 6,
+      "bottleneck_links": [
+        {
+          "link": "1->0",
+          "utilization": 1.0,
+          "capacity": 5.0,
+          "used": 5.0
+        },
+        {
+          "link": "0->1",
+          "utilization": 1.0,
+          "capacity": 5.0,
+          "used": 5.0
+        },
+        {
+          "link": "1->2",
+          "utilization": 1.0,
+          "capacity": 5.0,
+          "used": 5.0
+        },
+        {
+          "link": "2->3",
+          "utilization": 1.0,
+          "capacity": 5.0,
+          "used": 5.0
+        },
+        {
+          "link": "3->4",
+          "utilization": 1.0,
+          "capacity": 5.0,
+          "used": 5.0
+        }
+      ],
+      "avg_flow_per_pair": 5.0
+    },
+    "timestamp": "2025-11-10T16:57:28.858292",
+    "flow_demands": 4,
+    "topology_nodes": 6
+  },
+  "min_cost_max_flow": {
+    "model_name": "min_cost_max_flow",
+    "routes": [
+      {
+        "src": 1,
+        "dst": 0,
+        "next_hop": 0,
+        "flow": 1.47274,
+        "cost": 2.94548,
+        "avg_delay": 2.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "next_hop": 1,
+        "flow": 0.2,
+        "cost": 0.8,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "next_hop": 3,
+        "flow": 0.1,
+        "cost": 0.4,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "flow": 0.1,
+        "cost": 0.2,
+        "avg_delay": 2.0,
+        "model": "min_cost_max_flow"
+      }
+    ],
+    "metrics": {
+      "model_name": "min_cost_max_flow",
+      "total_flow": 1.87274,
+      "total_cost": 4.34548,
+      "avg_delay_per_flow": 3.0,
+      "success_rate": 1.0,
+      "cost_efficiency": 0.43096274749855024,
+      "alpha": 0.5
+    },
+    "timestamp": "2025-11-10T16:57:28.858664",
+    "flow_demands": 4,
+    "topology_nodes": 6
+  },
+  "multi_commodity_flow": {
+    "model_name": "multi_commodity_flow",
+    "routes": [
+      {
+        "src": 1,
+        "dst": 0,
+        "next_hop": 0,
+        "allocated_flow": 1.47274,
+        "demand": 1.47274,
+        "allocation_ratio": 1.0,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "next_hop": 1,
+        "allocated_flow": 0.2,
+        "demand": 0.2,
+        "allocation_ratio": 1.0,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "next_hop": 3,
+        "allocated_flow": 0.1,
+        "demand": 0.1,
+        "allocation_ratio": 1.0,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "allocated_flow": 0.1,
+        "demand": 0.1,
+        "allocation_ratio": 1.0,
+        "model": "multi_commodity_flow"
+      }
+    ],
+    "metrics": {
+      "model_name": "multi_commodity_flow",
+      "total_demand": 1.87274,
+      "total_allocated": 2.17274,
+      "allocation_ratio": 1.1601930860664054,
+      "fairness_index": 0.4960983939303861,
+      "success_rate": 1.0,
+      "avg_edge_utilization": 0.108637,
+      "max_edge_utilization": 0.33454799999999996,
+      "num_active_flows": 4
+    },
+    "timestamp": "2025-11-10T16:57:28.859006",
+    "flow_demands": 4,
+    "topology_nodes": 6
+  },
+  "load_balanced_sp": {
+    "model_name": "load_balanced_sp",
+    "routes": [
+      {
+        "src": 1,
+        "dst": 0,
+        "next_hop": 0,
+        "path": [
+          1,
+          0
+        ],
+        "path_cost": 2.0520551145824,
+        "total_delay": 2.0,
+        "max_utilization": 0.294548,
+        "hop_count": 1,
+        "demand": 1.47274,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "next_hop": 1,
+        "path": [
+          0,
+          1,
+          2
+        ],
+        "path_cost": 4.0681134185824,
+        "total_delay": 4.0,
+        "max_utilization": 0.33454799999999996,
+        "hop_count": 2,
+        "demand": 0.2,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "next_hop": 3,
+        "path": [
+          2,
+          3,
+          4
+        ],
+        "path_cost": 4.00048,
+        "total_delay": 4.0,
+        "max_utilization": 0.02,
+        "hop_count": 2,
+        "demand": 0.1,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "path": [
+          1,
+          2
+        ],
+        "path_cost": 2.00216,
+        "total_delay": 2.0,
+        "max_utilization": 0.06000000000000001,
+        "hop_count": 1,
+        "demand": 0.1,
+        "model": "load_balanced_sp"
+      }
+    ],
+    "metrics": {
+      "model_name": "load_balanced_sp",
+      "avg_delay_per_flow": 3.0,
+      "avg_cost_per_flow": 3.0307021332912,
+      "avg_hops_per_flow": 1.5,
+      "max_utilization": 0.33454799999999996,
+      "avg_edge_utilization": 0.108637,
+      "success_rate": 1.0,
+      "total_flows_routed": 4,
+      "beta": 0.3
+    },
+    "timestamp": "2025-11-10T16:57:28.859562",
+    "flow_demands": 4,
+    "topology_nodes": 6
+  }
+}

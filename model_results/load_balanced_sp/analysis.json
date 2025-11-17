@@ -1,0 +1,16 @@
+{
+  "model": "load_balanced_sp",
+  "total_flows": 30,
+  "successful_flows": 17,
+  "failed_flows": 13,
+  "partial_flows": 0,
+  "avg_throughput": 0.2753131,
+  "max_throughput": 1.50575,
+  "min_throughput": 0.0,
+  "avg_delay": 1089.361,
+  "avg_loss": 43.333333333333336,
+  "total_tx_bytes": "1099013940",
+  "total_rx_bytes": "37836720",
+  "packet_loss_rate": 0.43333333333333335,
+  "success_rate": 0.5666666666666667
+}

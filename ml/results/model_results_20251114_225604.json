@@ -1,0 +1,1222 @@
+{
+  "max_flow": {
+    "model_name": "max_flow",
+    "routes": [
+      {
+        "src": 11,
+        "dst": 10,
+        "next_hop": 4,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 1,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "next_hop": 3,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 6,
+        "next_hop": 3,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 1,
+        "dst": 7,
+        "next_hop": 3,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 13,
+        "dst": 0,
+        "next_hop": 5,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 5,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 13,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 13,
+        "dst": 2,
+        "next_hop": 5,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "max_flow": 6.0,
+        "model": "max_flow"
+      },
+      {
+        "src": 8,
+        "dst": 5,
+        "next_hop": 3,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 4,
+        "dst": 11,
+        "next_hop": 0,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 9,
+        "dst": 6,
+        "next_hop": 3,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 6,
+        "dst": 9,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 0,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 9,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 9,
+        "dst": 5,
+        "next_hop": 3,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 9,
+        "dst": 11,
+        "next_hop": 3,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 11,
+        "dst": 5,
+        "next_hop": 4,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 2,
+        "dst": 0,
+        "next_hop": 0,
+        "max_flow": 6.0,
+        "model": "max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 10,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 4,
+        "dst": 10,
+        "next_hop": 0,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 2,
+        "dst": 8,
+        "next_hop": 1,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 11,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "next_hop": 2,
+        "max_flow": 1.5,
+        "model": "max_flow"
+      }
+    ],
+    "metrics": {
+      "model_name": "max_flow",
+      "total_max_flow": 49.5,
+      "success_rate": 1.0,
+      "num_bottlenecks": 96,
+      "bottleneck_links": [
+        {
+          "link": "4->10",
+          "utilization": 1.0,
+          "capacity": 1.5,
+          "used": 1.5
+        },
+        {
+          "link": "11->4",
+          "utilization": 1.0,
+          "capacity": 1.5,
+          "used": 1.5
+        },
+        {
+          "link": "2->7",
+          "utilization": 1.0,
+          "capacity": 1.5,
+          "used": 1.5
+        },
+        {
+          "link": "6->2",
+          "utilization": 1.0,
+          "capacity": 1.5,
+          "used": 1.5
+        },
+        {
+          "link": "7->2",
+          "utilization": 1.0,
+          "capacity": 1.5,
+          "used": 1.5
+        }
+      ],
+      "avg_flow_per_pair": 1.8333333333333333
+    },
+    "timestamp": "2025-11-14T22:56:04.923545",
+    "flow_demands": 27,
+    "topology_nodes": 14
+  },
+  "min_cost_max_flow": {
+    "model_name": "min_cost_max_flow",
+    "routes": [
+      {
+        "src": 11,
+        "dst": 10,
+        "next_hop": 4,
+        "flow": 0.579416,
+        "cost": 2.317664,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "next_hop": 2,
+        "flow": 0.780223,
+        "cost": 3.120892,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 1,
+        "next_hop": 2,
+        "flow": 0.335703,
+        "cost": 1.0071089999999998,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "next_hop": 3,
+        "flow": 0.759664,
+        "cost": 1.519328,
+        "avg_delay": 2.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 6,
+        "next_hop": 2,
+        "flow": 1.13272,
+        "cost": 3.39816,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 1,
+        "dst": 7,
+        "next_hop": 2,
+        "flow": 0.754596,
+        "cost": 2.263788,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 13,
+        "dst": 0,
+        "next_hop": 5,
+        "flow": 0.753559,
+        "cost": 2.260677,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 5,
+        "next_hop": 2,
+        "flow": 0.325558,
+        "cost": 1.302232,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 13,
+        "next_hop": 5,
+        "flow": 0.735427,
+        "cost": 2.206281,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 13,
+        "dst": 2,
+        "next_hop": 5,
+        "flow": 0.746183,
+        "cost": 2.984732,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "next_hop": 3,
+        "flow": 0.72891,
+        "cost": 2.18673,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "flow": 1.49584,
+        "cost": 1.49584,
+        "avg_delay": 1.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 8,
+        "dst": 5,
+        "next_hop": 3,
+        "flow": 0.655659,
+        "cost": 2.622636,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 4,
+        "dst": 11,
+        "next_hop": 11,
+        "flow": 0.896871,
+        "cost": 1.793742,
+        "avg_delay": 2.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 9,
+        "dst": 6,
+        "next_hop": 3,
+        "flow": 0.395453,
+        "cost": 2.372718,
+        "avg_delay": 6.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 6,
+        "dst": 9,
+        "next_hop": 2,
+        "flow": 0.747466,
+        "cost": 4.484795999999999,
+        "avg_delay": 6.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 0,
+        "next_hop": 2,
+        "flow": 0.312559,
+        "cost": 0.9376769999999999,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 9,
+        "next_hop": 3,
+        "flow": 0.72238,
+        "cost": 2.16714,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 9,
+        "dst": 5,
+        "next_hop": 3,
+        "flow": 0.756419,
+        "cost": 3.025676,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 9,
+        "dst": 11,
+        "next_hop": 3,
+        "flow": 0.378101,
+        "cost": 2.268606,
+        "avg_delay": 6.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 11,
+        "dst": 5,
+        "next_hop": 4,
+        "flow": 0.654231,
+        "cost": 2.616924,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 2,
+        "dst": 0,
+        "next_hop": 0,
+        "flow": 0.566785,
+        "cost": 0.566785,
+        "avg_delay": 1.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 10,
+        "next_hop": 4,
+        "flow": 0.509026,
+        "cost": 1.527078,
+        "avg_delay": 3.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 4,
+        "dst": 10,
+        "next_hop": 10,
+        "flow": 0.508351,
+        "cost": 1.016702,
+        "avg_delay": 2.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 2,
+        "dst": 8,
+        "next_hop": 0,
+        "flow": 0.540295,
+        "cost": 2.16118,
+        "avg_delay": 4.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 11,
+        "next_hop": 2,
+        "flow": 0.299906,
+        "cost": 1.799436,
+        "avg_delay": 6.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "next_hop": 2,
+        "flow": 0.299153,
+        "cost": 1.794918,
+        "avg_delay": 6.0,
+        "model": "min_cost_max_flow"
+      }
+    ],
+    "metrics": {
+      "model_name": "min_cost_max_flow",
+      "total_flow": 17.370454,
+      "total_cost": 57.21944700000001,
+      "avg_delay_per_flow": 3.5925925925925926,
+      "success_rate": 1.0,
+      "cost_efficiency": 0.3035760551827772,
+      "alpha": 0.5
+    },
+    "timestamp": "2025-11-14T22:56:04.925519",
+    "flow_demands": 27,
+    "topology_nodes": 14
+  },
+  "multi_commodity_flow": {
+    "model_name": "multi_commodity_flow",
+    "routes": [
+      {
+        "src": 11,
+        "dst": 10,
+        "next_hop": 4,
+        "allocated_flow": 0.30945923571981737,
+        "demand": 0.579416,
+        "allocation_ratio": 0.5340881779581809,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "next_hop": 2,
+        "allocated_flow": 0.3829801542085343,
+        "demand": 0.780223,
+        "allocation_ratio": 0.49085986212728194,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 7,
+        "dst": 1,
+        "next_hop": 2,
+        "allocated_flow": 0.16203456706539693,
+        "demand": 0.335703,
+        "allocation_ratio": 0.4826723832238525,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "next_hop": 3,
+        "allocated_flow": 0.3819094601601177,
+        "demand": 0.759664,
+        "allocation_ratio": 0.5027347092400294,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 0,
+        "dst": 6,
+        "next_hop": 2,
+        "allocated_flow": 0.633266978228792,
+        "demand": 1.13272,
+        "allocation_ratio": 0.5590675349855145,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 1,
+        "dst": 7,
+        "next_hop": 2,
+        "allocated_flow": 0.754596,
+        "demand": 0.754596,
+        "allocation_ratio": 1.0,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 13,
+        "dst": 0,
+        "next_hop": 5,
+        "allocated_flow": 0.5057060562310949,
+        "demand": 0.753559,
+        "allocation_ratio": 0.6710901949695974,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 7,
+        "dst": 5,
+        "next_hop": 2,
+        "allocated_flow": 0.15713785573759098,
+        "demand": 0.325558,
+        "allocation_ratio": 0.48267238322385253,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 0,
+        "dst": 13,
+        "next_hop": 5,
+        "allocated_flow": 0.4768238241500607,
+        "demand": 0.735427,
+        "allocation_ratio": 0.6483632286414024,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 13,
+        "dst": 2,
+        "next_hop": 5,
+        "allocated_flow": 0.5007560949529991,
+        "demand": 0.746183,
+        "allocation_ratio": 0.6710901949695974,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "next_hop": 3,
+        "allocated_flow": 0.41860617370070574,
+        "demand": 0.72891,
+        "allocation_ratio": 0.5742906170867539,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "allocated_flow": 1.49584,
+        "demand": 1.49584,
+        "allocation_ratio": 1.0,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 8,
+        "dst": 5,
+        "next_hop": 3,
+        "allocated_flow": 0.32962253672560843,
+        "demand": 0.655659,
+        "allocation_ratio": 0.5027347092400294,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 4,
+        "dst": 11,
+        "next_hop": 11,
+        "allocated_flow": 0.47900819825353164,
+        "demand": 0.896871,
+        "allocation_ratio": 0.5340881779581809,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 9,
+        "dst": 6,
+        "next_hop": 3,
+        "allocated_flow": 0.19773843021862317,
+        "demand": 0.395453,
+        "allocation_ratio": 0.500030168486832,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 6,
+        "dst": 9,
+        "next_hop": 2,
+        "allocated_flow": 0.36690105770483095,
+        "demand": 0.747466,
+        "allocation_ratio": 0.490859862127282,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 7,
+        "dst": 0,
+        "next_hop": 2,
+        "allocated_flow": 0.1508635974280641,
+        "demand": 0.312559,
+        "allocation_ratio": 0.4826723832238525,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 0,
+        "dst": 9,
+        "next_hop": 3,
+        "allocated_flow": 0.4148560559711293,
+        "demand": 0.72238,
+        "allocation_ratio": 0.5742906170867539,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 9,
+        "dst": 5,
+        "next_hop": 3,
+        "allocated_flow": 0.378232320016641,
+        "demand": 0.756419,
+        "allocation_ratio": 0.500030168486832,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 9,
+        "dst": 11,
+        "next_hop": 3,
+        "allocated_flow": 0.18906190673503967,
+        "demand": 0.378101,
+        "allocation_ratio": 0.500030168486832,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 11,
+        "dst": 5,
+        "next_hop": 4,
+        "allocated_flow": 0.3494170427537586,
+        "demand": 0.654231,
+        "allocation_ratio": 0.5340881779581809,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 2,
+        "dst": 0,
+        "next_hop": 0,
+        "allocated_flow": 0.31687109281676484,
+        "demand": 0.566785,
+        "allocation_ratio": 0.5590675349855145,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 0,
+        "dst": 10,
+        "next_hop": 4,
+        "allocated_flow": 0.509026,
+        "demand": 0.509026,
+        "allocation_ratio": 1.0,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 4,
+        "dst": 10,
+        "next_hop": 10,
+        "allocated_flow": 0.47753622416931935,
+        "demand": 0.508351,
+        "allocation_ratio": 0.9393828755511828,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 2,
+        "dst": 8,
+        "next_hop": 0,
+        "allocated_flow": 0.3020613938149986,
+        "demand": 0.540295,
+        "allocation_ratio": 0.5590675349855145,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 7,
+        "dst": 11,
+        "next_hop": 2,
+        "allocated_flow": 0.1447563437631327,
+        "demand": 0.299906,
+        "allocation_ratio": 0.4826723832238525,
+        "model": "multi_commodity_flow"
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "next_hop": 2,
+        "allocated_flow": 0.14439289145856515,
+        "demand": 0.299153,
+        "allocation_ratio": 0.48267238322385253,
+        "model": "multi_commodity_flow"
+      }
+    ],
+    "metrics": {
+      "model_name": "multi_commodity_flow",
+      "total_demand": 17.370454,
+      "total_allocated": 23.927402999999998,
+      "allocation_ratio": 1.3774771229353016,
+      "fairness_index": 0.8600900536742301,
+      "success_rate": 1.0,
+      "avg_edge_utilization": 0.95631675,
+      "max_edge_utilization": 1.0000000000000002,
+      "num_active_flows": 27
+    },
+    "timestamp": "2025-11-14T22:56:04.939122",
+    "flow_demands": 27,
+    "topology_nodes": 14
+  },
+  "load_balanced_sp": {
+    "model_name": "load_balanced_sp",
+    "routes": [
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": 2,
+        "path": [
+          1,
+          2
+        ],
+        "path_cost": 1.0745845768533333,
+        "total_delay": 1.0,
+        "max_utilization": 0.49861333333333335,
+        "hop_count": 1,
+        "demand": 1.49584,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 0,
+        "dst": 6,
+        "next_hop": 2,
+        "path": [
+          0,
+          2,
+          6
+        ],
+        "path_cost": 3.38491637952,
+        "total_delay": 3.0,
+        "max_utilization": 0.7551466666666666,
+        "hop_count": 2,
+        "demand": 1.13272,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 4,
+        "dst": 11,
+        "next_hop": 11,
+        "path": [
+          4,
+          11
+        ],
+        "path_cost": 2.2145006908376,
+        "total_delay": 2.0,
+        "max_utilization": 0.597914,
+        "hop_count": 1,
+        "demand": 0.896871,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "next_hop": 2,
+        "path": [
+          6,
+          2,
+          7
+        ],
+        "path_cost": 5.138159693594133,
+        "total_delay": 4.0,
+        "max_utilization": 1.2752953333333332,
+        "hop_count": 2,
+        "demand": 0.780223,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "next_hop": 3,
+        "path": [
+          8,
+          3
+        ],
+        "path_cost": 2.1538905047722667,
+        "total_delay": 2.0,
+        "max_utilization": 0.5064426666666667,
+        "hop_count": 1,
+        "demand": 0.759664,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 9,
+        "dst": 5,
+        "next_hop": 3,
+        "path": [
+          9,
+          3,
+          0,
+          5
+        ],
+        "path_cost": 4.190723234520334,
+        "total_delay": 4.0,
+        "max_utilization": 0.5042793333333333,
+        "hop_count": 3,
+        "demand": 0.756419,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 1,
+        "dst": 7,
+        "next_hop": 2,
+        "path": [
+          1,
+          2,
+          7
+        ],
+        "path_cost": 3.7969939030727997,
+        "total_delay": 3.0,
+        "max_utilization": 1.0232126666666668,
+        "hop_count": 2,
+        "demand": 0.754596,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 13,
+        "dst": 0,
+        "next_hop": 5,
+        "path": [
+          13,
+          5,
+          0
+        ],
+        "path_cost": 3.2274280964110664,
+        "total_delay": 3.0,
+        "max_utilization": 0.5033259999999999,
+        "hop_count": 2,
+        "demand": 0.753559,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 6,
+        "dst": 9,
+        "next_hop": 2,
+        "path": [
+          6,
+          2,
+          0,
+          3,
+          9
+        ],
+        "path_cost": 8.683744620395633,
+        "total_delay": 6.0,
+        "max_utilization": 1.7736059999999998,
+        "hop_count": 4,
+        "demand": 0.747466,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 13,
+        "dst": 2,
+        "next_hop": 5,
+        "path": [
+          13,
+          5,
+          1,
+          2
+        ],
+        "path_cost": 4.917677434438733,
+        "total_delay": 4.0,
+        "max_utilization": 0.9998279999999999,
+        "hop_count": 3,
+        "demand": 0.746183,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 0,
+        "dst": 13,
+        "next_hop": 5,
+        "path": [
+          0,
+          5,
+          13
+        ],
+        "path_cost": 4.5003229094171,
+        "total_delay": 3.0,
+        "max_utilization": 1.4901126666666666,
+        "hop_count": 2,
+        "demand": 0.735427,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "next_hop": 3,
+        "path": [
+          0,
+          3,
+          8
+        ],
+        "path_cost": 3.7570731313277665,
+        "total_delay": 3.0,
+        "max_utilization": 0.9923826666666665,
+        "hop_count": 2,
+        "demand": 0.72891,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 0,
+        "dst": 9,
+        "next_hop": 3,
+        "path": [
+          0,
+          3,
+          9
+        ],
+        "path_cost": 4.6127702027475,
+        "total_delay": 3.0,
+        "max_utilization": 1.4841766666666665,
+        "hop_count": 2,
+        "demand": 0.72238,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 8,
+        "dst": 5,
+        "next_hop": 3,
+        "path": [
+          8,
+          3,
+          1,
+          5
+        ],
+        "path_cost": 5.3058976994519,
+        "total_delay": 4.0,
+        "max_utilization": 1.4294886666666666,
+        "hop_count": 3,
+        "demand": 0.655659,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 11,
+        "dst": 5,
+        "next_hop": 4,
+        "path": [
+          11,
+          4,
+          1,
+          5
+        ],
+        "path_cost": 4.796759789930733,
+        "total_delay": 4.0,
+        "max_utilization": 1.034068,
+        "hop_count": 3,
+        "demand": 0.654231,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 11,
+        "dst": 10,
+        "next_hop": 4,
+        "path": [
+          11,
+          4,
+          10
+        ],
+        "path_cost": 5.299954626501333,
+        "total_delay": 4.0,
+        "max_utilization": 1.4203453333333333,
+        "hop_count": 2,
+        "demand": 0.579416,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 2,
+        "dst": 0,
+        "next_hop": 0,
+        "path": [
+          2,
+          0
+        ],
+        "path_cost": 1.1995889024947,
+        "total_delay": 1.0,
+        "max_utilization": 0.815657,
+        "hop_count": 1,
+        "demand": 0.566785,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 2,
+        "dst": 8,
+        "next_hop": 1,
+        "path": [
+          2,
+          1,
+          3,
+          8
+        ],
+        "path_cost": 6.386453042526133,
+        "total_delay": 4.0,
+        "max_utilization": 1.7896853333333331,
+        "hop_count": 3,
+        "demand": 0.540295,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 0,
+        "dst": 10,
+        "next_hop": 4,
+        "path": [
+          0,
+          4,
+          10
+        ],
+        "path_cost": 3.3245585122529335,
+        "total_delay": 3.0,
+        "max_utilization": 0.725628,
+        "hop_count": 2,
+        "demand": 0.509026,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 4,
+        "dst": 10,
+        "next_hop": 10,
+        "path": [
+          4,
+          10
+        ],
+        "path_cost": 2.6799327692930666,
+        "total_delay": 2.0,
+        "max_utilization": 1.0645286666666667,
+        "hop_count": 1,
+        "demand": 0.508351,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 9,
+        "dst": 6,
+        "next_hop": 3,
+        "path": [
+          9,
+          3,
+          1,
+          2,
+          6
+        ],
+        "path_cost": 10.922988971296064,
+        "total_delay": 6.0,
+        "max_utilization": 2.037241333333333,
+        "hop_count": 4,
+        "demand": 0.395453,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 9,
+        "dst": 11,
+        "next_hop": 3,
+        "path": [
+          9,
+          3,
+          1,
+          4,
+          11
+        ],
+        "path_cost": 10.242711255988798,
+        "total_delay": 6.0,
+        "max_utilization": 1.9998793333333331,
+        "hop_count": 4,
+        "demand": 0.378101,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 7,
+        "dst": 1,
+        "next_hop": 2,
+        "path": [
+          7,
+          2,
+          1
+        ],
+        "path_cost": 4.540241398159067,
+        "total_delay": 3.0,
+        "max_utilization": 1.42269,
+        "hop_count": 2,
+        "demand": 0.335703,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 7,
+        "dst": 5,
+        "next_hop": 2,
+        "path": [
+          7,
+          2,
+          0,
+          5
+        ],
+        "path_cost": 5.762630224480334,
+        "total_delay": 4.0,
+        "max_utilization": 1.4640533333333334,
+        "hop_count": 3,
+        "demand": 0.325558,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 7,
+        "dst": 0,
+        "next_hop": 2,
+        "path": [
+          7,
+          2,
+          0
+        ],
+        "path_cost": 4.995464167543734,
+        "total_delay": 3.0,
+        "max_utilization": 1.672426,
+        "hop_count": 2,
+        "demand": 0.312559,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 7,
+        "dst": 11,
+        "next_hop": 2,
+        "path": [
+          7,
+          2,
+          0,
+          4,
+          11
+        ],
+        "path_cost": 10.610615230062,
+        "total_delay": 6.0,
+        "max_utilization": 1.8723633333333334,
+        "hop_count": 4,
+        "demand": 0.299906,
+        "model": "load_balanced_sp"
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "next_hop": 2,
+        "path": [
+          7,
+          2,
+          0,
+          3,
+          8
+        ],
+        "path_cost": 11.754823440030432,
+        "total_delay": 6.0,
+        "max_utilization": 2.0717986666666666,
+        "hop_count": 4,
+        "demand": 0.299153,
+        "model": "load_balanced_sp"
+      }
+    ],
+    "metrics": {
+      "model_name": "load_balanced_sp",
+      "avg_delay_per_flow": 3.5925925925925926,
+      "avg_cost_per_flow": 5.16575575584887,
+      "avg_hops_per_flow": 2.4074074074074074,
+      "max_utilization": 2.0717986666666666,
+      "avg_edge_utilization": 1.2715432666666664,
+      "success_rate": 1.0,
+      "total_flows_routed": 27,
+      "beta": 0.3
+    },
+    "timestamp": "2025-11-14T22:56:04.946764",
+    "flow_demands": 27,
+    "topology_nodes": 14
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "min_cost_max_flow": {
+    "model_name": "min_cost_max_flow",
+    "routes": [
+      {
+        "src": 1,
+        "dst": 0,
+        "next_hop": 0,
+        "flow": 1.47274,
+        "cost": 2.94548,
+        "avg_delay": 2.0,
+        "model": "min_cost_max_flow"
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "next_hop": null,
+        "flow": 0,
+        "cost": 0,
+        "avg_delay": 0,
+        "model": "min_cost_max_flow",
+        "error": "No feasible path"
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "next_hop": null,
+        "flow": 0,
+        "cost": 0,
+        "avg_delay": 0,
+        "model": "min_cost_max_flow",
+        "error": "No feasible path"
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "next_hop": null,
+        "flow": 0,
+        "cost": 0,
+        "avg_delay": 0,
+        "model": "min_cost_max_flow",
+        "error": "No feasible path"
+      }
+    ],
+    "metrics": {
+      "model_name": "min_cost_max_flow",
+      "total_flow": 1.47274,
+      "total_cost": 2.94548,
+      "avg_delay_per_flow": 3.0,
+      "success_rate": 0.25,
+      "cost_efficiency": 0.5,
+      "alpha": 0.5
+    },
+    "timestamp": "2025-11-10T16:49:41.053651",
+    "flow_demands": 4,
+    "topology_nodes": 6
+  }
+}

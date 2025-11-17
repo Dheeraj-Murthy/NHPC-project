@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-11-15T23:28:16.039442",
+  "models_tested": 4,
+  "summary": {
+    "total_flows": {
+      "max_flow": 30,
+      "min_cost_max_flow": 30,
+      "multi_commodity_flow": 30,
+      "load_balanced_sp": 30
+    },
+    "successful_flows": {
+      "max_flow": 17,
+      "min_cost_max_flow": 17,
+      "multi_commodity_flow": 17,
+      "load_balanced_sp": 17
+    },
+    "failed_flows": {
+      "max_flow": 13,
+      "min_cost_max_flow": 13,
+      "multi_commodity_flow": 13,
+      "load_balanced_sp": 13
+    },
+    "partial_flows": {
+      "max_flow": 0,
+      "min_cost_max_flow": 0,
+      "multi_commodity_flow": 0,
+      "load_balanced_sp": 0
+    },
+    "avg_throughput": {
+      "max_flow": 0.27371660000000003,
+      "min_cost_max_flow": 0.2674646,
+      "multi_commodity_flow": 0.26745979999999997,
+      "load_balanced_sp": 0.2753131
+    },
+    "max_throughput": {
+      "max_flow": 1.63106,
+      "min_cost_max_flow": 1.50442,
+      "multi_commodity_flow": 1.51006,
+      "load_balanced_sp": 1.50575
+    },
+    "min_throughput": {
+      "max_flow": 0.0,
+      "min_cost_max_flow": 0.0,
+      "multi_commodity_flow": 0.0,
+      "load_balanced_sp": 0.0
+    },
+    "avg_delay": {
+      "max_flow": 1056.0692333333332,
+      "min_cost_max_flow": 1073.7505,
+      "multi_commodity_flow": 1073.1517,
+      "load_balanced_sp": 1089.361
+    },
+    "avg_loss": {
+      "max_flow": 43.333333333333336,
+      "min_cost_max_flow": 43.333333333333336,
+      "multi_commodity_flow": 43.333333333333336,
+      "load_balanced_sp": 43.333333333333336
+    },
+    "total_tx_bytes": {
+      "max_flow": "1099013940",
+      "min_cost_max_flow": "1099013940",
+      "multi_commodity_flow": "1099013940",
+      "load_balanced_sp": "1099013940"
+    },
+    "total_rx_bytes": {
+      "max_flow": "38112660",
+      "min_cost_max_flow": "36430560",
+      "multi_commodity_flow": "36351720",
+      "load_balanced_sp": "37836720"
+    },
+    "packet_loss_rate": {
+      "max_flow": 0.43333333333333335,
+      "min_cost_max_flow": 0.43333333333333335,
+      "multi_commodity_flow": 0.43333333333333335,
+      "load_balanced_sp": 0.43333333333333335
+    },
+    "success_rate": {
+      "max_flow": 0.5666666666666667,
+      "min_cost_max_flow": 0.5666666666666667,
+      "multi_commodity_flow": 0.5666666666666667,
+      "load_balanced_sp": 0.5666666666666667
+    }
+  },
+  "best_performers": {
+    "highest_successful_flows": {
+      "model": "max_flow",
+      "value": 17
+    },
+    "highest_avg_throughput": {
+      "model": "load_balanced_sp",
+      "value": 0.2753131
+    },
+    "highest_max_throughput": {
+      "model": "max_flow",
+      "value": 1.63106
+    },
+    "highest_min_throughput": {
+      "model": "max_flow",
+      "value": 0.0
+    },
+    "highest_total_tx_bytes": {
+      "model": "max_flow",
+      "value": "1099013940"
+    },
+    "highest_total_rx_bytes": {
+      "model": "max_flow",
+      "value": "38112660"
+    },
+    "highest_success_rate": {
+      "model": "max_flow",
+      "value": 0.5666666666666667
+    },
+    "lowest_failed_flows": {
+      "model": "max_flow",
+      "value": 13
+    },
+    "lowest_partial_flows": {
+      "model": "max_flow",
+      "value": 0
+    },
+    "lowest_avg_delay": {
+      "model": "max_flow",
+      "value": 1056.0692333333332
+    },
+    "lowest_avg_loss": {
+      "model": "max_flow",
+      "value": 43.333333333333336
+    },
+    "lowest_packet_loss_rate": {
+      "model": "max_flow",
+      "value": 0.43333333333333335
+    }
+  }
+}

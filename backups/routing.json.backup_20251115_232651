@@ -1,0 +1,257 @@
+{
+  "routes": [
+    {
+      "src": 1,
+      "dst": 7,
+      "next_hop": 2,
+      "allocated_flow": 0.547437,
+      "demand": 0.547437,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 9,
+      "dst": 5,
+      "next_hop": 3,
+      "allocated_flow": 0.410715,
+      "demand": 0.410715,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 9,
+      "dst": 6,
+      "next_hop": 3,
+      "allocated_flow": 0.445256,
+      "demand": 0.445256,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 0,
+      "dst": 6,
+      "next_hop": 2,
+      "allocated_flow": 0.237867,
+      "demand": 0.237867,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 11,
+      "dst": 5,
+      "next_hop": 4,
+      "allocated_flow": 0.529532,
+      "demand": 0.529532,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 7,
+      "dst": 8,
+      "next_hop": 2,
+      "allocated_flow": 0.1169852890998957,
+      "demand": 0.2,
+      "allocation_ratio": 0.5849264454994785,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 0,
+      "dst": 13,
+      "next_hop": 5,
+      "allocated_flow": 0.09882500364828972,
+      "demand": 0.1,
+      "allocation_ratio": 0.9882500364828972,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 7,
+      "dst": 5,
+      "next_hop": 2,
+      "allocated_flow": 0.1332310361971982,
+      "demand": 0.227774,
+      "allocation_ratio": 0.5849264454994784,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 6,
+      "dst": 7,
+      "next_hop": 2,
+      "allocated_flow": 0.8446344058366078,
+      "demand": 1.009288,
+      "allocation_ratio": 0.8368616349709972,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 2,
+      "dst": 8,
+      "next_hop": 0,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 0,
+      "dst": 9,
+      "next_hop": 3,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 11,
+      "dst": 10,
+      "next_hop": 4,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 13,
+      "dst": 0,
+      "next_hop": 5,
+      "allocated_flow": 0.80291,
+      "demand": 0.80291,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 2,
+      "dst": 0,
+      "next_hop": 0,
+      "allocated_flow": 0.22561,
+      "demand": 0.22561,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 8,
+      "dst": 3,
+      "next_hop": 3,
+      "allocated_flow": 0.6134809879747996,
+      "demand": 0.795956,
+      "allocation_ratio": 0.7707473628878978,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 7,
+      "dst": 1,
+      "next_hop": 2,
+      "allocated_flow": 0.155343010616415,
+      "demand": 0.265577,
+      "allocation_ratio": 0.5849264454994785,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 1,
+      "dst": 2,
+      "next_hop": 2,
+      "allocated_flow": 1.50329,
+      "demand": 1.50329,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 0,
+      "dst": 10,
+      "next_hop": 4,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 0,
+      "dst": 8,
+      "next_hop": 3,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 4,
+      "dst": 10,
+      "next_hop": 10,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 9,
+      "dst": 11,
+      "next_hop": 3,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 4,
+      "dst": 11,
+      "next_hop": 11,
+      "allocated_flow": 0.1,
+      "demand": 0.1,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 7,
+      "dst": 0,
+      "next_hop": 2,
+      "allocated_flow": 0.1253783986663677,
+      "demand": 0.214349,
+      "allocation_ratio": 0.5849264454994785,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 8,
+      "dst": 5,
+      "next_hop": 3,
+      "allocated_flow": 0.5782200668700411,
+      "demand": 0.750207,
+      "allocation_ratio": 0.7707473628878978,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 13,
+      "dst": 2,
+      "next_hop": 5,
+      "allocated_flow": 0.214531,
+      "demand": 0.214531,
+      "allocation_ratio": 1.0,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 7,
+      "dst": 11,
+      "next_hop": 2,
+      "allocated_flow": 0.05849264454994785,
+      "demand": 0.1,
+      "allocation_ratio": 0.5849264454994785,
+      "model": "multi_commodity_flow"
+    },
+    {
+      "src": 6,
+      "dst": 9,
+      "next_hop": 2,
+      "allocated_flow": 0.08368616349709973,
+      "demand": 0.1,
+      "allocation_ratio": 0.8368616349709973,
+      "model": "multi_commodity_flow"
+    }
+  ],
+  "metadata": {
+    "model_used": "multi_commodity_flow",
+    "total_routes": 27,
+    "timestamp": [
+      "max_flow",
+      "min_cost_max_flow",
+      "multi_commodity_flow",
+      "load_balanced_sp"
+    ]
+  }
+}

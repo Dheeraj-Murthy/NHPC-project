@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-11-15T21:59:40.235277",
+  "data_summary": {
+    "topology_nodes": 14,
+    "topology_links": 16,
+    "flow_demands": 27,
+    "total_demand": 9.630156,
+    "available_models": [
+      "max_flow",
+      "min_cost_max_flow",
+      "multi_commodity_flow",
+      "load_balanced_sp"
+    ]
+  },
+  "metrics_analysis": {
+    "total_flows": 30,
+    "unique_sources": 10,
+    "unique_destinations": 12,
+    "unique_pairs": 27,
+    "avg_throughput": 0.2776718666666667,
+    "avg_delay": 1042.9319333333333,
+    "avg_loss": 43.333333333333336,
+    "total_tx_bytes": "1099013940",
+    "total_rx_bytes": "38897280",
+    "throughput_std": 0.34776861375878326,
+    "throughput_range": [
+      0.0,
+      1.49584
+    ],
+    "lossy_flows": "13",
+    "loss_rate": 0.43333333333333335
+  },
+  "models_evaluated": [
+    "max_flow",
+    "min_cost_max_flow",
+    "multi_commodity_flow",
+    "load_balanced_sp"
+  ],
+  "results_file": "/Users/dheerajmurthy/Downloads/IIITB/sem6/NHPC/project/simulation/ns-allinone-3.42/ns-3.42/scratch/my_project/ml/results/model_results_20251115_215940.json",
+  "comparison_report": "/Users/dheerajmurthy/Downloads/IIITB/sem6/NHPC/project/simulation/ns-allinone-3.42/ns-3.42/scratch/my_project/ml/results/comparison_report_20251115_215940.json",
+  "training_data_generated": true
+}

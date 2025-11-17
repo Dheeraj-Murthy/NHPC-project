@@ -1,0 +1,84 @@
+digraph Topology {
+
+    rankdir=TB;
+    splines=ortho;
+    nodesep=0.8;
+    ranksep=1.2;
+
+    node [
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#f8f8f8",
+        fontname="Helvetica",
+        fontsize=12,
+        width=1.1
+    ];
+
+    /* ================= CORE LAYER ================= */
+    subgraph cluster_core {
+        label="CORE LAYER";
+        color="#bbbbbb";
+        style="rounded";
+
+        {rank=same;
+            n0 [label="Node 0"];
+            n1 [label="Node 1"];
+        }
+    }
+
+    /* =============== AGGREGATION LAYER =============== */
+    subgraph cluster_agg {
+        label="AGGREGATION LAYER";
+        color="#cccccc";
+        style="rounded";
+
+        {rank=same;
+            n2 [label="2"];
+            n3 [label="3"];
+            n4 [label="4"];
+            n5 [label="5"];
+        }
+    }
+
+    /* ================= EDGE LAYER ================= */
+    subgraph cluster_edge {
+        label="EDGE LAYER";
+        color="#dddddd";
+        style="rounded";
+
+        {rank=same;
+            n6 [label="6"];
+            n7 [label="7"];
+            n8 [label="8"];
+            n9 [label="9"];
+            n10 [label="10"];
+            n11 [label="11"];
+            n12 [label="12"];
+            n13 [label="13"];
+        }
+    }
+
+    /* =================== LINKS =================== */
+
+    /* Core → Aggregation */
+    n0 -> n2 [label="3Mbps / 1ms"];
+    n0 -> n3 [label="3Mbps / 1ms"];
+    n0 -> n4 [label="3Mbps / 1ms"];
+    n0 -> n5 [label="3Mbps / 1ms"];
+
+    n1 -> n2 [label="3Mbps / 1ms"];
+    n1 -> n3 [label="3Mbps / 1ms"];
+    n1 -> n4 [label="3Mbps / 1ms"];
+    n1 -> n5 [label="3Mbps / 1ms"];
+
+    /* Aggregation → Edge */
+    n2 -> n6 [label="1.5Mbps / 2ms"];
+    n2 -> n7 [label="1.5Mbps / 2ms"];
+    n3 -> n8 [label="1.5Mbps / 2ms"];
+    n3 -> n9 [label="1.5Mbps / 2ms"];
+    n4 -> n10 [label="1.5Mbps / 2ms"];
+    n4 -> n11 [label="1.5Mbps / 2ms"];
+    n5 -> n12 [label="1.5Mbps / 2ms"];
+    n5 -> n13 [label="1.5Mbps / 2ms"];
+
+}

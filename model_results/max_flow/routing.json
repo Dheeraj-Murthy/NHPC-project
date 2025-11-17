@@ -1,0 +1,203 @@
+{
+  "routes": [
+    {
+      "src": 7,
+      "dst": 8,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 8,
+      "dst": 3,
+      "next_hop": 3,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 0,
+      "dst": 13,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 2,
+      "dst": 0,
+      "next_hop": 0,
+      "max_flow": 6.0,
+      "model": "max_flow"
+    },
+    {
+      "src": 11,
+      "dst": 5,
+      "next_hop": 4,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 7,
+      "dst": 5,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 4,
+      "dst": 10,
+      "next_hop": 0,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 9,
+      "dst": 6,
+      "next_hop": 3,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 6,
+      "dst": 7,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 4,
+      "dst": 11,
+      "next_hop": 0,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 7,
+      "dst": 0,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 0,
+      "dst": 10,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 13,
+      "dst": 0,
+      "next_hop": 5,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 0,
+      "dst": 9,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 0,
+      "dst": 8,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 1,
+      "dst": 7,
+      "next_hop": 3,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 6,
+      "dst": 9,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 11,
+      "dst": 10,
+      "next_hop": 4,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 0,
+      "dst": 6,
+      "next_hop": 3,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 2,
+      "dst": 8,
+      "next_hop": 1,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 9,
+      "dst": 5,
+      "next_hop": 3,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 13,
+      "dst": 2,
+      "next_hop": 5,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 7,
+      "dst": 1,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 8,
+      "dst": 5,
+      "next_hop": 3,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 9,
+      "dst": 11,
+      "next_hop": 3,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 7,
+      "dst": 11,
+      "next_hop": 2,
+      "max_flow": 1.5,
+      "model": "max_flow"
+    },
+    {
+      "src": 1,
+      "dst": 2,
+      "next_hop": 2,
+      "max_flow": 6.0,
+      "model": "max_flow"
+    }
+  ],
+  "metadata": {
+    "model_used": "max_flow",
+    "total_routes": 27,
+    "timestamp": [
+      "max_flow",
+      "min_cost_max_flow",
+      "multi_commodity_flow",
+      "load_balanced_sp"
+    ]
+  }
+}

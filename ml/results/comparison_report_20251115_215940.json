@@ -1,0 +1,489 @@
+{
+  "timestamp": "2025-11-15T21:59:40.232463",
+  "models_evaluated": 4,
+  "total_flows": 108,
+  "metrics_comparison": {
+    "success_rate": {
+      "rankings": [
+        {
+          "model": "max_flow",
+          "value": 1.0,
+          "rank": 1
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 1.0,
+          "rank": 2
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 1.0,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 1.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "max_flow",
+      "best_value": 1.0,
+      "lower_is_better": false
+    },
+    "total_flow": {
+      "rankings": [
+        {
+          "model": "min_cost_max_flow",
+          "value": 9.630155999999998,
+          "rank": 1
+        },
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "min_cost_max_flow",
+      "best_value": 9.630155999999998,
+      "lower_is_better": false
+    },
+    "total_allocated": {
+      "rankings": [
+        {
+          "model": "multi_commodity_flow",
+          "value": 18.982838,
+          "rank": 1
+        },
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "multi_commodity_flow",
+      "best_value": 18.982838,
+      "lower_is_better": false
+    },
+    "allocation_ratio": {
+      "rankings": [
+        {
+          "model": "multi_commodity_flow",
+          "value": 1.9711869672723892,
+          "rank": 1
+        },
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "multi_commodity_flow",
+      "best_value": 1.9711869672723892,
+      "lower_is_better": false
+    },
+    "avg_delay_per_flow": {
+      "rankings": [
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 1
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 3.5925925925925926,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 3.5925925925925926,
+          "rank": 4
+        }
+      ],
+      "best_model": "max_flow",
+      "best_value": 0.0,
+      "lower_is_better": true
+    },
+    "total_cost": {
+      "rankings": [
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 1
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 30.216826,
+          "rank": 4
+        }
+      ],
+      "best_model": "max_flow",
+      "best_value": 0.0,
+      "lower_is_better": true
+    },
+    "cost_efficiency": {
+      "rankings": [
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.31870177231718505,
+          "rank": 1
+        },
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "min_cost_max_flow",
+      "best_value": 0.31870177231718505,
+      "lower_is_better": false
+    },
+    "fairness_index": {
+      "rankings": [
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.588489219948497,
+          "rank": 1
+        },
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "multi_commodity_flow",
+      "best_value": 0.588489219948497,
+      "lower_is_better": false
+    },
+    "avg_edge_utilization": {
+      "rankings": [
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.7551493333333333,
+          "rank": 1
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.6714850222222223,
+          "rank": 2
+        },
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "multi_commodity_flow",
+      "best_value": 0.7551493333333333,
+      "lower_is_better": false
+    },
+    "max_edge_utilization": {
+      "rankings": [
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 1
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 1.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "max_flow",
+      "best_value": 0.0,
+      "lower_is_better": true
+    },
+    "avg_hops_per_flow": {
+      "rankings": [
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 1
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 2.4074074074074074,
+          "rank": 4
+        }
+      ],
+      "best_model": "max_flow",
+      "best_value": 0.0,
+      "lower_is_better": true
+    },
+    "total_flows_routed": {
+      "rankings": [
+        {
+          "model": "load_balanced_sp",
+          "value": 27.0,
+          "rank": 1
+        },
+        {
+          "model": "max_flow",
+          "value": 0.0,
+          "rank": 2
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 0.0,
+          "rank": 3
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 0.0,
+          "rank": 4
+        }
+      ],
+      "best_model": "load_balanced_sp",
+      "best_value": 27.0,
+      "lower_is_better": false
+    },
+    "routes_generated": {
+      "rankings": [
+        {
+          "model": "max_flow",
+          "value": 27,
+          "rank": 1
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 27,
+          "rank": 2
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 27,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 27,
+          "rank": 4
+        }
+      ],
+      "best_model": "max_flow",
+      "best_value": 27,
+      "lower_is_better": false
+    },
+    "successful_routes": {
+      "rankings": [
+        {
+          "model": "max_flow",
+          "value": 27,
+          "rank": 1
+        },
+        {
+          "model": "min_cost_max_flow",
+          "value": 27,
+          "rank": 2
+        },
+        {
+          "model": "multi_commodity_flow",
+          "value": 27,
+          "rank": 3
+        },
+        {
+          "model": "load_balanced_sp",
+          "value": 27,
+          "rank": 4
+        }
+      ],
+      "best_model": "max_flow",
+      "best_value": 27,
+      "lower_is_better": false
+    }
+  },
+  "overall_rankings": [
+    [
+      "multi_commodity_flow",
+      100.0
+    ],
+    [
+      "min_cost_max_flow",
+      63.893249607535324
+    ],
+    [
+      "load_balanced_sp",
+      53.86760761914562
+    ],
+    [
+      "max_flow",
+      39.56043956043956
+    ]
+  ],
+  "model_scores": {
+    "max_flow": 39.56043956043956,
+    "min_cost_max_flow": 63.893249607535324,
+    "multi_commodity_flow": 100.0,
+    "load_balanced_sp": 53.86760761914562
+  },
+  "recommendations": [
+    "Best overall performer: multi_commodity_flow",
+    "Highest actual throughput: min_cost_max_flow (For maximum data transfer)",
+    "Most bandwidth allocated: multi_commodity_flow (For high utilization)",
+    "Best demand fulfillment: multi_commodity_flow (For meeting traffic requirements)",
+    "Most flows actually routed: load_balanced_sp (For comprehensive routing)",
+    "Most cost-efficient: min_cost_max_flow (For resource-constrained environments)",
+    "Highest fairness: multi_commodity_flow (For fair bandwidth distribution)",
+    "Best network utilization: multi_commodity_flow (For efficient resource use)",
+    "Highest success rate: max_flow (For reliability-critical applications)",
+    "Lowest delay: max_flow (For latency-sensitive applications)",
+    "Best load balancing: max_flow (For avoiding congestion)",
+    "Significant performance differences exist - model selection matters"
+  ],
+  "detailed_metrics": {
+    "max_flow": {
+      "success_rate": 1.0,
+      "total_flow": 0.0,
+      "total_allocated": 0.0,
+      "allocation_ratio": 0.0,
+      "avg_delay_per_flow": 0.0,
+      "total_cost": 0.0,
+      "cost_efficiency": 0.0,
+      "fairness_index": 0.0,
+      "avg_edge_utilization": 0.0,
+      "max_edge_utilization": 0.0,
+      "avg_hops_per_flow": 0.0,
+      "total_flows_routed": 0.0,
+      "routes_generated": 27,
+      "successful_routes": 27
+    },
+    "min_cost_max_flow": {
+      "success_rate": 1.0,
+      "total_flow": 9.630155999999998,
+      "total_allocated": 0.0,
+      "allocation_ratio": 0.0,
+      "avg_delay_per_flow": 3.5925925925925926,
+      "total_cost": 30.216826,
+      "cost_efficiency": 0.31870177231718505,
+      "fairness_index": 0.0,
+      "avg_edge_utilization": 0.0,
+      "max_edge_utilization": 0.0,
+      "avg_hops_per_flow": 0.0,
+      "total_flows_routed": 0.0,
+      "routes_generated": 27,
+      "successful_routes": 27
+    },
+    "multi_commodity_flow": {
+      "success_rate": 1.0,
+      "total_flow": 0.0,
+      "total_allocated": 18.982838,
+      "allocation_ratio": 1.9711869672723892,
+      "avg_delay_per_flow": 0.0,
+      "total_cost": 0.0,
+      "cost_efficiency": 0.0,
+      "fairness_index": 0.588489219948497,
+      "avg_edge_utilization": 0.7551493333333333,
+      "max_edge_utilization": 1.0,
+      "avg_hops_per_flow": 0.0,
+      "total_flows_routed": 0.0,
+      "routes_generated": 27,
+      "successful_routes": 27
+    },
+    "load_balanced_sp": {
+      "success_rate": 1.0,
+      "total_flow": 0.0,
+      "total_allocated": 0.0,
+      "allocation_ratio": 0.0,
+      "avg_delay_per_flow": 3.5925925925925926,
+      "total_cost": 0.0,
+      "cost_efficiency": 0.0,
+      "fairness_index": 0.0,
+      "avg_edge_utilization": 0.6714850222222223,
+      "max_edge_utilization": 0.0,
+      "avg_hops_per_flow": 2.4074074074074074,
+      "total_flows_routed": 27.0,
+      "routes_generated": 27,
+      "successful_routes": 27
+    }
+  }
+}

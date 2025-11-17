@@ -1,0 +1,1428 @@
+{
+  "metadata": {
+    "purpose": "Training data for ML routing models",
+    "baseline_models": [
+      "max_flow",
+      "min_cost_max_flow",
+      "multi_commodity_flow",
+      "load_balanced_sp"
+    ],
+    "features": [
+      "topology_info",
+      "flow_demands",
+      "link_utilization",
+      "delay_patterns"
+    ],
+    "labels": [
+      "optimal_next_hop",
+      "flow_allocation",
+      "performance_metrics"
+    ]
+  },
+  "training_examples": [
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 10,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 7,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 1,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 3,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 6,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 7,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 0,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 5,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 13,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 2,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 8,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 2,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 5,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 11,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 6,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 9,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 0,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 9,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 5,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 11,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 5,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 0,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 10,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 10,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 8,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 1,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 11,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 8,
+        "model_used": "max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 10,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 7,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 1,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 3,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 6,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 7,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 0,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 5,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 13,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 2,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 8,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 2,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 5,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 11,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 11,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 6,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 9,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 0,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 9,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 5,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 11,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 5,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 0,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 10,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 10,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 10,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 8,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 11,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 8,
+        "model_used": "min_cost_max_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 10,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 7,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 1,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 3,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 6,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 7,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 0,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 5,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 13,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 2,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 8,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 2,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 5,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 11,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 11,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 6,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 9,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 0,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 9,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 5,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 11,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 5,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 0,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 10,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 10,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 10,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 8,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 11,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 8,
+        "model_used": "multi_commodity_flow",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 2,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 7,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 3,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 5,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 1,
+        "dst_node": 7,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 0,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 8,
+        "dst_node": 5,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 5,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 1,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 6,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 13,
+        "dst_node": 2,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 6,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 5,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 0,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 0,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 6,
+        "dst_node": 9,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 11,
+        "dst_node": 10,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 13,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 5,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 8,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 11,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 11,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 9,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 9,
+        "dst_node": 11,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 3,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 0,
+        "dst_node": 10,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 4,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 4,
+        "dst_node": 10,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 10,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 2,
+        "dst_node": 8,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 0,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 11,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    },
+    {
+      "input_features": {
+        "src_node": 7,
+        "dst_node": 8,
+        "model_used": "load_balanced_sp",
+        "topology_context": "linear_topology"
+      },
+      "output_labels": {
+        "next_hop": 2,
+        "model_confidence": 1.0,
+        "performance_class": "high"
+      }
+    }
+  ]
+}
