@@ -8,11 +8,11 @@
         1,
         2
       ],
-      "path_cost": 1.0760093734533334,
+      "path_cost": 1.0747412236033334,
       "total_delay": 1.0,
-      "max_utilization": 0.5033533333333333,
+      "max_utilization": 0.4991366666666666,
       "hop_count": 1,
-      "demand": 1.51006,
+      "demand": 1.49741,
       "model": "load_balanced_sp"
     },
     {
@@ -24,26 +24,11 @@
         2,
         7
       ],
-      "path_cost": 4.543457731098133,
+      "path_cost": 4.549294192858134,
       "total_delay": 4.0,
-      "max_utilization": 0.6729646666666667,
+      "max_utilization": 0.6765686666666667,
       "hop_count": 2,
-      "demand": 1.009447,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 8,
-      "dst": 3,
-      "next_hop": 3,
-      "path": [
-        8,
-        3
-      ],
-      "path_cost": 2.1652166979010667,
-      "total_delay": 2.0,
-      "max_utilization": 0.5247486666666666,
-      "hop_count": 1,
-      "demand": 0.787123,
+      "demand": 1.014853,
       "model": "load_balanced_sp"
     },
     {
@@ -56,11 +41,11 @@
         0,
         5
       ],
-      "path_cost": 4.667209066096266,
+      "path_cost": 4.187646028421334,
       "total_delay": 4.0,
-      "max_utilization": 1.02449,
+      "max_utilization": 0.5001946666666667,
       "hop_count": 3,
-      "demand": 0.749612,
+      "demand": 0.750292,
       "model": "load_balanced_sp"
     },
     {
@@ -72,11 +57,26 @@
         5,
         0
       ],
-      "path_cost": 3.2235182871629666,
+      "path_cost": 3.2248777244864333,
       "total_delay": 3.0,
-      "max_utilization": 0.498907,
+      "max_utilization": 0.49999633333333326,
       "hop_count": 2,
-      "demand": 0.747109,
+      "demand": 0.749697,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 8,
+      "dst": 3,
+      "next_hop": 3,
+      "path": [
+        8,
+        3
+      ],
+      "path_cost": 2.5979082263170667,
+      "total_delay": 2.0,
+      "max_utilization": 0.9982553333333333,
+      "hop_count": 1,
+      "demand": 0.747091,
       "model": "load_balanced_sp"
     },
     {
@@ -88,11 +88,11 @@
         2,
         7
       ],
-      "path_cost": 3.7640713800708,
+      "path_cost": 3.7667063090308,
       "total_delay": 3.0,
-      "max_utilization": 1.02167,
+      "max_utilization": 1.0252166666666667,
       "hop_count": 2,
-      "demand": 0.523058,
+      "demand": 0.522972,
       "model": "load_balanced_sp"
     },
     {
@@ -105,11 +105,11 @@
         1,
         5
       ],
-      "path_cost": 4.083196389640333,
+      "path_cost": 4.082935808545334,
       "total_delay": 4.0,
-      "max_utilization": 0.3330593333333333,
+      "max_utilization": 0.33253733333333335,
       "hop_count": 3,
-      "demand": 0.499589,
+      "demand": 0.498806,
       "model": "load_balanced_sp"
     },
     {
@@ -123,11 +123,11 @@
         2,
         6
       ],
-      "path_cost": 6.694131870164333,
+      "path_cost": 6.667973301237399,
       "total_delay": 6.0,
-      "max_utilization": 0.983172,
+      "max_utilization": 0.9688533333333332,
       "hop_count": 4,
-      "demand": 0.46531100000000003,
+      "demand": 0.438427,
       "model": "load_balanced_sp"
     },
     {
@@ -140,11 +140,11 @@
         1,
         5
       ],
-      "path_cost": 4.219143255321634,
+      "path_cost": 4.209755180781199,
       "total_delay": 4.0,
-      "max_utilization": 0.561034,
+      "max_utilization": 0.5463593333333333,
       "hop_count": 3,
-      "demand": 0.37624,
+      "demand": 0.381112,
       "model": "load_balanced_sp"
     },
     {
@@ -156,11 +156,11 @@
         2,
         1
       ],
-      "path_cost": 4.0294542715251005,
+      "path_cost": 4.0450367847684,
       "total_delay": 3.0,
-      "max_utilization": 1.1934120000000001,
+      "max_utilization": 1.2044086666666667,
       "hop_count": 2,
-      "demand": 0.257613,
+      "demand": 0.268788,
       "model": "load_balanced_sp"
     },
     {
@@ -173,11 +173,58 @@
         0,
         2
       ],
-      "path_cost": 4.3648102562028,
+      "path_cost": 4.382821154330733,
       "total_delay": 4.0,
-      "max_utilization": 0.6462213333333334,
+      "max_utilization": 0.6649646666666666,
       "hop_count": 3,
-      "demand": 0.222223,
+      "demand": 0.24775,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 7,
+      "dst": 0,
+      "next_hop": 2,
+      "path": [
+        7,
+        2,
+        0
+      ],
+      "path_cost": 4.132339405961367,
+      "total_delay": 3.0,
+      "max_utilization": 1.3567433333333334,
+      "hop_count": 2,
+      "demand": 0.228502,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 2,
+      "dst": 0,
+      "next_hop": 0,
+      "path": [
+        2,
+        0
+      ],
+      "path_cost": 1.0432071376065333,
+      "total_delay": 1.0,
+      "max_utilization": 0.37950466666666666,
+      "hop_count": 1,
+      "demand": 0.223835,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 0,
+      "dst": 6,
+      "next_hop": 2,
+      "path": [
+        0,
+        2,
+        6
+      ],
+      "path_cost": 3.8080404910298995,
+      "total_delay": 3.0,
+      "max_utilization": 1.115446,
+      "hop_count": 2,
+      "demand": 0.219889,
       "model": "load_balanced_sp"
     },
     {
@@ -190,58 +237,11 @@
         0,
         5
       ],
-      "path_cost": 5.2330197019932,
+      "path_cost": 5.558920731159733,
       "total_delay": 4.0,
-      "max_utilization": 1.3415373333333334,
+      "max_utilization": 1.499078666666667,
       "hop_count": 3,
-      "demand": 0.222188,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 2,
-      "dst": 0,
-      "next_hop": 0,
-      "path": [
-        2,
-        0
-      ],
-      "path_cost": 1.0424340090508,
-      "total_delay": 1.0,
-      "max_utilization": 0.3760940000000001,
-      "hop_count": 1,
-      "demand": 0.21856,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 7,
-      "dst": 0,
-      "next_hop": 2,
-      "path": [
-        7,
-        2,
-        0
-      ],
-      "path_cost": 4.3875658340507,
-      "total_delay": 3.0,
-      "max_utilization": 1.4872246666666669,
-      "hop_count": 2,
-      "demand": 0.218531,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 0,
-      "dst": 6,
-      "next_hop": 2,
-      "path": [
-        0,
-        2,
-        6
-      ],
-      "path_cost": 3.8448599247867,
-      "total_delay": 3.0,
-      "max_utilization": 1.1279253333333334,
-      "hop_count": 2,
-      "demand": 0.21713,
+      "demand": 0.213503,
       "model": "load_balanced_sp"
     },
     {
@@ -255,42 +255,11 @@
         3,
         8
       ],
-      "path_cost": 8.550507928317666,
+      "path_cost": 8.536096820090034,
       "total_delay": 6.0,
-      "max_utilization": 1.6205580000000002,
+      "max_utilization": 1.6324120000000004,
       "hop_count": 4,
       "demand": 0.2,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 4,
-      "dst": 11,
-      "next_hop": 11,
-      "path": [
-        4,
-        11
-      ],
-      "path_cost": 2.0958685250456,
-      "total_delay": 2.0,
-      "max_utilization": 0.399726,
-      "hop_count": 1,
-      "demand": 0.1,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 0,
-      "dst": 9,
-      "next_hop": 3,
-      "path": [
-        0,
-        3,
-        9
-      ],
-      "path_cost": 3.3129045993579003,
-      "total_delay": 3.0,
-      "max_utilization": 0.6277006666666667,
-      "hop_count": 2,
-      "demand": 0.1,
       "model": "load_balanced_sp"
     },
     {
@@ -302,28 +271,10 @@
         5,
         13
       ],
-      "path_cost": 3.4437995750405337,
+      "path_cost": 3.4627945975012,
       "total_delay": 3.0,
-      "max_utilization": 0.7128880000000001,
+      "max_utilization": 0.7316313333333334,
       "hop_count": 2,
-      "demand": 0.1,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 7,
-      "dst": 11,
-      "next_hop": 2,
-      "path": [
-        7,
-        2,
-        0,
-        4,
-        11
-      ],
-      "path_cost": 7.954692300772302,
-      "total_delay": 6.0,
-      "max_utilization": 1.687224666666667,
-      "hop_count": 4,
       "demand": 0.1,
       "model": "load_balanced_sp"
     },
@@ -343,17 +294,52 @@
       "model": "load_balanced_sp"
     },
     {
-      "src": 11,
+      "src": 7,
+      "dst": 11,
+      "next_hop": 2,
+      "path": [
+        7,
+        2,
+        0,
+        4,
+        11
+      ],
+      "path_cost": 7.944873691910534,
+      "total_delay": 6.0,
+      "max_utilization": 1.699078666666667,
+      "hop_count": 4,
+      "demand": 0.1,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 2,
+      "dst": 8,
+      "next_hop": 1,
+      "path": [
+        2,
+        1,
+        3,
+        8
+      ],
+      "path_cost": 5.0594762411652,
+      "total_delay": 4.0,
+      "max_utilization": 1.1982553333333332,
+      "hop_count": 3,
+      "demand": 0.1,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 0,
       "dst": 10,
       "next_hop": 4,
       "path": [
-        11,
+        0,
         4,
         10
       ],
-      "path_cost": 4.181158018378934,
-      "total_delay": 4.0,
-      "max_utilization": 0.5330593333333333,
+      "path_cost": 3.0120000000000005,
+      "total_delay": 3.0,
+      "max_utilization": 0.13333333333333333,
       "hop_count": 2,
       "demand": 0.1,
       "model": "load_balanced_sp"
@@ -369,10 +355,59 @@
         4,
         11
       ],
-      "path_cost": 6.5246340780899,
+      "path_cost": 6.378910472247867,
       "total_delay": 6.0,
-      "max_utilization": 0.6943673333333334,
+      "max_utilization": 0.613026,
       "hop_count": 4,
+      "demand": 0.1,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 6,
+      "dst": 9,
+      "next_hop": 2,
+      "path": [
+        6,
+        2,
+        0,
+        3,
+        9
+      ],
+      "path_cost": 7.319113404481767,
+      "total_delay": 6.0,
+      "max_utilization": 1.1821126666666666,
+      "hop_count": 4,
+      "demand": 0.1,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 0,
+      "dst": 9,
+      "next_hop": 3,
+      "path": [
+        0,
+        3,
+        9
+      ],
+      "path_cost": 3.4183656213709663,
+      "total_delay": 3.0,
+      "max_utilization": 0.7463593333333334,
+      "hop_count": 2,
+      "demand": 0.1,
+      "model": "load_balanced_sp"
+    },
+    {
+      "src": 4,
+      "dst": 11,
+      "next_hop": 11,
+      "path": [
+        4,
+        11
+      ],
+      "path_cost": 2.1701576068362667,
+      "total_delay": 2.0,
+      "max_utilization": 0.5325373333333333,
+      "hop_count": 1,
       "demand": 0.1,
       "model": "load_balanced_sp"
     },
@@ -385,60 +420,25 @@
         3,
         8
       ],
-      "path_cost": 3.9865579992576334,
+      "path_cost": 4.055075661682434,
       "total_delay": 3.0,
-      "max_utilization": 1.22449,
+      "max_utilization": 1.264922,
       "hop_count": 2,
       "demand": 0.1,
       "model": "load_balanced_sp"
     },
     {
-      "src": 6,
-      "dst": 9,
-      "next_hop": 2,
-      "path": [
-        6,
-        2,
-        1,
-        3,
-        9
-      ],
-      "path_cost": 7.405321919104034,
-      "total_delay": 6.0,
-      "max_utilization": 1.194592,
-      "hop_count": 4,
-      "demand": 0.1,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 2,
-      "dst": 8,
-      "next_hop": 1,
-      "path": [
-        2,
-        1,
-        3,
-        8
-      ],
-      "path_cost": 5.222286037792033,
-      "total_delay": 4.0,
-      "max_utilization": 1.2911566666666667,
-      "hop_count": 3,
-      "demand": 0.1,
-      "model": "load_balanced_sp"
-    },
-    {
-      "src": 0,
+      "src": 11,
       "dst": 10,
       "next_hop": 4,
       "path": [
-        0,
+        11,
         4,
         10
       ],
-      "path_cost": 3.025333333333333,
-      "total_delay": 3.0,
-      "max_utilization": 0.20000000000000004,
+      "path_cost": 4.239427260169601,
+      "total_delay": 4.0,
+      "max_utilization": 0.599204,
       "hop_count": 2,
       "demand": 0.1,
       "model": "load_balanced_sp"

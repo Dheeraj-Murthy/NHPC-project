@@ -4,13 +4,13 @@
   "successful_flows": 17,
   "failed_flows": 13,
   "partial_flows": 0,
-  "avg_throughput": 0.26745979999999997,
-  "max_throughput": 1.51006,
+  "avg_throughput": 0.2667642333333333,
+  "max_throughput": 1.49741,
   "min_throughput": 0.0,
-  "avg_delay": 1073.1517,
+  "avg_delay": 1060.6078666666667,
   "avg_loss": 43.333333333333336,
   "total_tx_bytes": "1099013940",
-  "total_rx_bytes": "36351720",
+  "total_rx_bytes": "36554220",
   "packet_loss_rate": 0.43333333333333335,
   "success_rate": 0.5666666666666667
 }
